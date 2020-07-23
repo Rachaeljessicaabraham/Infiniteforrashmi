@@ -158,6 +158,14 @@ blockquote {
   opacity:0.6;
 }
 
+.card{
+  margin-bottom: 15px;
+  transition: transform 0.5s;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+
 @media (min-height: 600px) and (min-width: 1920px) {
   #infinite {
     background-size: cover;
