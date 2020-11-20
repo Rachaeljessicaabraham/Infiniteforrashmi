@@ -146,9 +146,9 @@ blockquote {
 
 #infinite {
   background-color: #222;
-  background-image: url(../img/vegan.jpg);
+  background-image: url(../img/vegan.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  /*background-size: cover;*/
   height: 100vh;
   min-height: 375px;
   position: relative;
@@ -176,6 +176,7 @@ blockquote {
 
 @media (min-height: 830px) {
   #infinite {
+
     background-position: center -210px;
      }
 }
